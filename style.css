@@ -1,0 +1,80 @@
+header{
+    height: 100px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.logo img {
+    height: 25px;
+    margin-top: 30px;
+    padding: 30px;
+}
+nav a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: gray;
+    padding: 0 10px;
+    margin-right: 20px;
+}
+nav a:last-child{
+    margin-right: 0;
+    color: rgb(231, 93, 231);
+}
+nav a:hover{
+    text-decoration: underline;
+}
+h5 {
+    color: rgb(235, 113, 235);
+    margin: 20px;
+}
+
+
+main{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    text-align: start;
+}
+h1{
+    padding: 10px;
+
+}
+ main .p {
+    color: grey;
+   
+}
+button {
+  border-radius: 20px ;
+  border-color: rgb(226, 64, 91);
+
+  text-align: center;
+  padding: 10px;
+margin: 10px;
+}
+div .position {
+  
+        position: relative;
+        left: 600px;
+        margin-top: -300px;
+
+
+      }
+      .position img {
+          height: 400px;
+      }
+     
+      .companies {
+     text-align: center;
+          padding-top: 50px;
+     margin: 50px;
+
+
+      }
+ p {
+     color: gray;
+    padding: 20px;
+    
+ }
+ 
